@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+main {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+main p {
+  line-height: 2;
+  margin-bottom: 1em;
+  font-size: 20px;
+}
+
+main h1 {
+  margin-bottom: 20px;
+}
+
+#bottomOfMain {
+  height: 1px;
+}
+
+.spinnerWrapper {
+  text-align: center;
+  margin: 20px;
+}
+
+#spinner {
+  font-size: 24px;
+}
+
+#spinner.hidden {
+  display: none;
+}
